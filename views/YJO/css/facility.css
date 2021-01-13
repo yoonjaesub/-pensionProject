@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.content{width: 100%; height: auto;}
+.cnt{    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 400px; display: flex;
+    margin-bottom: 40px;
+        margin-top: 50px;
+    }
+.txt1{    width: 30%;
+    height: 300px;
+    margin-right: 150px;}
+.facility_img{width: 500px; height: 400px;}
+.txt2{    width: 30%;
+    height: 300px;
+    margin-left: 150px;}
