@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.content{width: 100%; height: auto;}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.img_container {
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img_wrap {
+    position: absolute;
+    width: 333.3%;
+    height: 100%;
+}
+
+    .img_wrap img {width: 30%; height:800px; }
+    .main_txt{position: absolute;
+    top : 50%;
+    left : 25%; 
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6), 1px 1px 2px rgba(0,0,0,0.6), 1px 1px 2px rgba(0,0,0,0.6), 1px 1px 2px rgba(0,0,0,0.6);
+}
+.rg{
+	    position: absolute;
+    top: 120px;
+    left: 25px;
+    z-index: 100;
+    color: white;
+}   
+.rg input {
+	margin-right: 30px;
+} 
+    
+    

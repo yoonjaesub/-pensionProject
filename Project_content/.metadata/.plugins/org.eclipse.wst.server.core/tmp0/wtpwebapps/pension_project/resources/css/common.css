@@ -1,0 +1,42 @@
+/* 색상 */
+.color1 {background : #fff3e0;}
+.color2 {background : #fff8e1;}
+.color3 {background : #ffecb3;}
+.color4 {background : #ffe0b2;}
+.color5 {background : #e1bee7;}
+
+/* 폰트 */
+.font_M {font-family: 'Noto Sans KR', sans-serif;}
+.font_MB {font-family: 'Do Hyeon', sans-serif;}
+.font_EB {font-family: 'Abril Fatface', cursive;}
+.font_E {font-family: 'Darker Grotesque', sans-serif;}
+
+/* 초기화 */
+* {margin: 0; padding: 0;}
+html,body {max-width: 100vw; height: 100%;}
+ul,li {list-style: none;}
+a {text-decoration: none; color:#000;}
+
+/* 헤더 */
+.wrap {width: 100%; height: 100%; box-sizing: border-box;}
+.header {width: 100%; height: 100px; background: #E1BEE7;}
+.hd_wrap {width: 80%; height: 100px; margin: 0 auto; }
+.logo {display:inline-block; width: 10%; height: 100x;}
+.logo img {width: 100%; height: 100%; margin-bottom: 15px;}
+.gnb {display: inline-block; width: 65%; height: 100px;}
+.gnb ul {width: 100%;}
+.gnb ul li {float: left; width: 25%; text-align: center; line-height: 100px;}
+.gnb ul li a {width: 100%; font-size: 25px; color: #fff; font-weight: bold;}
+.login_box {float: right; width: 14%; height: 100px; }
+.login_box a {display: inline-block; width: auto; text-align: center; margin: 0 10px; font-size: 18px; line-height: 100px; font-weight: bold; }
+
+/* 콘텐츠 */
+.content {clear: both; width: 100%; height: auto; min-height: 800px; margin: 0 auto; box-sizing: border-box;}
+
+/* 푸터 */
+.footer {clear: both; width: 100%; height: 150px; background: #E1BEE7;}
+.ft_wrap {width: 80%; height: 100%; margin: 0 auto; text-align: center; }
+.ft_info_box {width: 100%;}
+.ft_info_box li {float: left; width: 33%; height: 100px; line-height: 1.5; margin-top: 10px; }
+.ft_info_box h4 {font-size: 25px;}
+.ft_info_box p {font-size: 20px;}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DataSourceTest" project="pension_project" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.pension.myapp.DataSourceTest" time="0.893">
+    <testcase name="sessionTest" classname="com.pension.myapp.DataSourceTest" time="0.005"/>
+    <testcase name="test" classname="com.pension.myapp.DataSourceTest" time="0.887"/>
+    <testcase name="factoryTest" classname="com.pension.myapp.DataSourceTest" time="0.001"/>
+  </testsuite>
+</testrun>
