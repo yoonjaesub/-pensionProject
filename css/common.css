@@ -18,26 +18,25 @@ ul,li {list-style: none;}
 a {text-decoration: none; color:#000;}
 
 /* 헤더 */
-.wrap {width: 100%; height: 100%;}
+.wrap {width: 100%; height: 100%; box-sizing: border-box;}
 .header {width: 100%; height: 100px; background: #E1BEE7;}
-.hd_wrap {width: 1600px; height: 100px; margin: 0 auto; }
-.logo {width: 150px; height: 70px;}
+.hd_wrap {width: 80%; height: 100px; margin: 0 auto; }
+.logo {width: 14%; height: 70px;}
 .logo img {margin-bottom: 15px;}
-.gnb {display: inline-block; width: 900px; height: 100px; margin: 0 100px;}
+.gnb {display: inline-block; width: 65%; height: 100px;}
 .gnb ul {width: 100%;}
 .gnb ul li {float: left; width: 25%; text-align: center; line-height: 100px;}
 .gnb ul li a {width: 100%; font-size: 25px; color: #fff; font-weight: bold;}
-.login_box {float: right; width: 180px; height: 100px; }
+.login_box {float: right; width: 14%; height: 100px; }
 .login_box a {display: inline-block; width: auto; text-align: center; margin: 0 10px; font-size: 18px; line-height: 100px; font-weight: bold; }
 
-
-.content {clear: both;}
+/* 콘텐츠 */
+.content {clear: both; width: 80%; height: 800px; margin: 0 auto; box-sizing: border-box;}
 
 /* 푸터 */
-.footer {clear: both; width: 100%; height: 150px; background: #E1BEE7;}
-.ft_wrap {width: 1600px; height: 100%; margin: 0 auto; }
+.footer {clear: both; width: 100%; height: 150px; background: #E1BEE7; margin-top: 30px; }
+.ft_wrap {width: 80%; height: 100%; margin: 0 auto; }
 .ft_info_box {width: 100%;}
-.ft_info_box li {float: left; width: 30%; height: 100px; margin-right: 80px; line-height: 1.5; margin-top: 10px; }
-.ft_info_box li:last-child {margin-right: 0;}
+.ft_info_box li {float: left; width: 33%; height: 100px; line-height: 1.5; margin-top: 10px; }
 .ft_info_box h4 {font-size: 25px;}
 .ft_info_box p {font-size: 20px;}
