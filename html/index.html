@@ -47,7 +47,7 @@
                         <p>TEL : 031-0000-0000</p>
                         <p>E-MAIL : OOOOOO@naver.com</p>
                     </li>
-                    <li>
+                    <li style="height: ;">
                         <h4 class="ft_info_tit">BANK INFO</h4>
                         <p>계좌번호 : 12345-123-123456 <br>
                             OO은행 </p>
@@ -56,6 +56,12 @@
                 </ul>
             </div>    
         </div>
-    </div>
+    </div> 
+    <script>
+        $(document).ready(function(){
+            $("#roomBox").mouseover(function(){$("#content_box").css("height","30%");});
+            $("#roomBox").mouseout(function(){$("#content_box").css("height","0%");});
+        })
+    </script>
 </body>
 </html>
