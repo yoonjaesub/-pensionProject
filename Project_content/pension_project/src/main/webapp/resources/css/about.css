@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.content{width: 100%; height: auto;}
+.cnt1{    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 400px; display: flex;
+    margin-bottom: 40px;
+        margin-top: 50px;
+    }
+.txt1{    width: 30%;
+    height: 300px;
+    margin-right: 250px;}
+.about_img{width: 500px; height: 400px;}
+.mtn{flex:0 0 25%; height: 200px;}
+.cnt2{    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+    margin-bottom: 40px;
+    }
+.cnt3{
+	 width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+}

@@ -1,0 +1,54 @@
+package com.pension.myapp;
+
+
+
+import java.sql.Connection;
+
+import javax.inject.Inject;
+import javax.sql.DataSource;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"file:src/main/webapp/WEB-INF/spring/**/root-context.xml"})
+public class DataSourceTest {
+
+	@Inject
+	private DataSource ds;
+	
+    @Test
+    public void testConection()throws Exception{//DataSource의 접속여부를 확인하는 테스트(1단계)
+        
+        try(Connection con = ds.getConnection()){
+            
+            System.out.println(con);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        
+    }
+    
+    @Inject
+    private SqlSessionFactory sqlFactory;
+    
+    @Test
+    public void testFactory(){//sqlFactory 접속여부 확인테스트(2단계)
+        System.out.println(sqlFactory);
+    }
+    
+    @Test
+    public void testSession()throws Exception{
+        
+        try(SqlSession session = sqlFactory.openSession()){
+            System.out.println(session);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+    
+}
