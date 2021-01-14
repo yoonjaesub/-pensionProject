@@ -10,7 +10,7 @@
 <link
 	href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@400;500;600;700;800;900&family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
 	rel="stylesheet">
-<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="resources/css/common.css">
 </head>
 <style>
 
@@ -71,11 +71,11 @@ th, td {
 		<ul>
 			<li class="left_list" style="background-color: #fff3e0;"><a
 				href="pension_manager.jsp" class="font_M">펜션관리</a></li>
-			<li class="left_list"><a href="reservation_manager.jsp"
+			<li class="left_list"><a href="reservation_manager"
 				class="font_M">예약관리</a></li>
-			<li class="left_list"><a href="member_manager.jsp"
+			<li class="left_list"><a href="member_manager"
 				class="font_M">회원관리</a></li>
-			<li class="left_list"><a href="notice_manager.jsp"
+			<li class="left_list"><a href="notice_manager"
 				class="font_M">게시판관리</a></li>
 		</ul>
 	</div>
@@ -120,7 +120,7 @@ th, td {
 				<tr>
 					<td colspan="2"	style="text-align: center; border-top: 1px solid #333;">
 						<input type="button" value="삭제" />
-						<input type="button" value="취소" onclick="location.href='member_manager.jsp'"/>
+						<input type="button" value="취소" onclick="location.href='member_manager'"/>
 						<input type="submit" value="생성" />
 					</td>
 				</tr>

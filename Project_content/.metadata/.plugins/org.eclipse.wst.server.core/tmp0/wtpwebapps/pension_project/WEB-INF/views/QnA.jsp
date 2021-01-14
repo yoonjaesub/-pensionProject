@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>OO펜션 - QnA</title>
-<link rel="stylesheet" href="./css/common.css" />
+<link rel="stylesheet" href="resources/css/common.css" />
 <style>
 	.content {width: 100%; clear: both; height: 80vh;}
 	.button_bar {height: 10%; margin-top: 5%;}
@@ -23,7 +23,7 @@
 </style>
 </head>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="./js/QnA.js"></script>
+<script src="resources/js/QnA.js"></script>
 <body>
 <%@ include file = "header.jsp" %>
 <div class="content">

@@ -6,10 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>화인트리펜션</title>
-	<link rel="stylesheet" href=".css/common.css" />
-    <link rel="stylesheet" href="./css/about.css">
-    <link rel="stylesheet" href="./css/facility.css">
-    <link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="resources/css/common.css" />
+    <link rel="stylesheet" href="resources/css/index.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<title>화인트리펜션</title>
 </head>
@@ -58,9 +56,9 @@ $(function(){
 
            <div class="img_wrap">
            		
-                <img src="../resources/img/O_index1.jpg" style="float:left;"/>
-                <img src="./img/O_index2.jpg" style="float:left;"/>
-                <img src="./img/O_index3.jpg" style="float:left;"/>
+                <img src="resources/img/O_index1.jpg" style="float:left;"/>
+                <img src="resources/img/O_index2.jpg" style="float:left;"/>
+                <img src="resources/img/O_index3.jpg" style="float:left;"/>
                 </div>
                 <p class="main_txt">화인스톤빌리지에 오신 여러분을 환영합니다</p>
                 <a class="prev">&#10094;</a>

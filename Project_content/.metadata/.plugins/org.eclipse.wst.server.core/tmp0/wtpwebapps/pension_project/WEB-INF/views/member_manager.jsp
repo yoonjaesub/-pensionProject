@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@400;500;600;700;800;900&family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
 	rel="stylesheet">
-<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="resources/css/common.css">
 </head>
 <style>
 
@@ -66,10 +66,10 @@ th, td {
 	<jsp:include page="./header.jsp" />
 		<div class="left_bar">
 			<ul>
-				<li class="left_list"><a href="pension_manager.jsp" class="font_M">펜션관리</a></li>
-				<li class="left_list"><a href="reservation_manager.jsp" class="font_M">예약관리</a></li>
-				<li class="left_list" style="background-color: #fff3e0;"><a href="member_manager.jsp" class="font_M">회원관리</a></li>
-				<li class="left_list"><a href="notice_manager.jsp" class="font_M">게시판관리</a></li>
+				<li class="left_list"><a href="pension_manager" class="font_M">펜션관리</a></li>
+				<li class="left_list"><a href="reservation_manager" class="font_M">예약관리</a></li>
+				<li class="left_list" style="background-color: #fff3e0;"><a href="member_manager" class="font_M">회원관리</a></li>
+				<li class="left_list"><a href="notice_manager" class="font_M">게시판관리</a></li>
 			</ul>
 		</div>
 	<div class="main_table">
@@ -86,7 +86,7 @@ th, td {
 				</thead>
 				<tbody>
 					<tr>
-						<td><a href="member_edit.jsp">ex) 001</a></td>
+						<td><a href="member_edit">ex) 001</a></td>
 						<td>ex) 서지원</td>
 						<td>ex) 01077681506</td>
 						<td>ex) 서울시 용산구</td>

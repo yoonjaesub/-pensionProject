@@ -10,7 +10,7 @@
 <link
 	href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@400;500;600;700;800;900&family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
 	rel="stylesheet">
-<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="resources/css/common.css">
 </head>
 <style>
 
@@ -64,22 +64,23 @@ th, td {
 }
 </style>
 <body>
-
-	<%@ incldue file = "header.jsp" %>
-
+	<jsp:include page="./header.jsp" />
 	<div class="left_bar">
 		<ul>
-			<li class="left_list" style="background-color: #fff3e0;"><a
-				href="pension_manager.jsp" class="font_M">펜션관리</a></li>
-			<li class="left_list"><a href="reservation_manager.jsp"
-				class="font_M">예약관리</a></li>
-			<li class="left_list"><a href="member_manager.jsp"
-				class="font_M">회원관리</a></li>
-			<li class="left_list"><a href="notice_manager.jsp"
-				class="font_M">게시판관리</a></li>
+			<li class="left_list" style="background-color: #fff3e0;">
+				<a href="pension_manager" class="font_M">펜션관리</a>
+			</li>
+			<li class="left_list">
+				<a href="reservation_manager" class="font_M">예약관리</a>
+			</li>
+			<li class="left_list">
+				<a href="member_manager" class="font_M">회원관리</a>
+			</li>
+			<li class="left_list">
+				<a href="notice_manager" class="font_M">게시판관리</a>
+			</li>
 		</ul>
 	</div>
-
 	<div class="main_table">
 		<h2 class="main_text">펜션관리</h2>
 		<form action="">
@@ -94,7 +95,7 @@ th, td {
 				</thead>
 				<tbody>
 					<tr>
-						<td><a href="pension_edit.jsp">ex) 101</a></td>
+						<td><a href="pension_edit">ex) 101</a></td>
 						<td>ex) 로즈마리</td>
 						<td>ex) 111111원</td>
 						<td>ex) 5인기준</td>
@@ -103,7 +104,7 @@ th, td {
 				<tfoot>
 					<tr>
 						<td colspan="4" style = "text-align: center; border-top: 1px solid #333;">
-						 	<input type="button" value="생성" onclick="location.href='pension_create.jsp'" />
+						 	<input type="button" value="생성" onclick="location.href='pension_create'" />
 						 </td>
 					</tr>
 				</tfoot>

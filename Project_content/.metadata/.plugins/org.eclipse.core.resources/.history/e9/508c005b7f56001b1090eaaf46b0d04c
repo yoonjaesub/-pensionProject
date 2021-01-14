@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*, java.lang.*, java.net.*, java.text.*, java.util.* " %>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="resources/css/common.css" />
+<meta charset="UTF-8">
+<title>인덱스</title>
+  <style>
+        .login_main{clear: both; width: 1280px; height: auto; margin: 0 auto; text-align: center;}
+        .lst{margin-top: 80px;}
+        .lst2{line-height: 50px; margin-bottom: 20px;}
+        .lst4{line-height: 30px;}
+        .lst5{margin-top: 10px;}
+        .lst6{margin-top: 30px;}
+        
+        .tit_left{font-size: 16px; font-weight: bold; text-decoration: underline; margin-left: 160px; color: rgb(41, 90, 221); cursor: pointer;}
+        .tit{font-size: 24px; color: rgb(255, 224, 178);}
+        input{width: 400px; height: 80px; padding: 6px 12px; font-size:24px;
+		    background: #ffffff;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    box-sizing: border-box;
+		    resize: none;
+		    margin: 10px 10px;}
+		        button{padding: 6px 12px; width: 200px; height: 50px;
+		    background: #fff;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		    box-sizing: border-box;
+		    resize: none;
+		    font-size: 14px;}
+        .login_btn{background-color: rgb(225, 190, 231); color: #ffffff; font-weight: bold; font-size: 16px;}
+        .join_btn:hover{background-color: rgb(225, 190, 231);}
+        .join_btn{background-color: rgb(224, 224, 224); color: #ffffff; font-weight: bold; font-size: 16px;}
+    </style>
+</head>
+<body>
+<%@ include file = "header.jsp" %>
+  <main class="content">
+            <div class="login_main">
+                <div class="cotent1">
+                    <li class="lst"><img src="resources/img/O_fine_logo.png" alt="콘텐츠"></li>
+                    <li class="lst2"><span class="tit">@@펜션의 회원이 되시면 다양한 혜택을 누리실 수 있습니다.</span></li>
+                    <li class="lst3"><input type="text" name="" id="" value="" placeholder="아이디"></input></li>
+                    <li class="lst4"><input type="password" name="" id="" value="" placeholder="비밀번호"></input></li>
+                    <li class="lst5"><a href="#" class="tit_left">아이디와 비밀번호를 잊으셨나요?</a></li>
+                    <li class="lst6">
+                        <button class="join_btn" type="button" >회원가입</button>
+                        <button class="login_btn" type="button" >로그인</button>
+                    </li>
+                </div>
+            </div>
+        </main>
+<%@ include file = "footer.jsp" %>
+</body>
+</html>

@@ -28,7 +28,7 @@
                 <div class="room_list_box">
                     <ul class="room_list">
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list1.jpg" alt="방사진">
                                     <div class="room_desc_box">
@@ -39,7 +39,7 @@
                             </a>
                         </li>
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list2.jpg" alt="방사진">
                                     <div class="room_desc_box">
@@ -50,7 +50,7 @@
                             </a>
                         </li>
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list3.jpg" alt="방사진">
                                     <div class="room_desc_box">
@@ -61,7 +61,7 @@
                             </a>
                         </li>
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list4.jpg" alt="방사진">
                                     <div class="room_desc_box">
@@ -72,7 +72,7 @@
                             </a>
                         </li>
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list5.jpg" alt="방사진">
                                     <div class="room_desc_box">
@@ -83,7 +83,7 @@
                             </a>
                         </li>
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list6.jpg" alt="방사진">
                                     <div class="room_desc_box">
@@ -94,7 +94,7 @@
                             </a>
                         </li>
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list7.jpg" alt="방사진">
                                     <div class="room_desc_box">
@@ -105,7 +105,7 @@
                             </a>
                         </li>
                         <li class="room_box">
-                            <a href="">
+                            <a href="room_detail">
                                 <div class="room">
                                     <img src="resources/img/room_list/Y_room_list8.jpg" alt="방사진">
                                     <div class="room_desc_box">

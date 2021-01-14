@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>화인트리펜션</title>
-	<link rel="stylesheet" href=".css/common.css" />
-    <link rel="stylesheet" href="./css/about.css">
+	<link rel="stylesheet" href="resources/css/common.css" />
+    <link rel="stylesheet" href="resources/css/about.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
@@ -22,14 +22,14 @@
 한겨울 코끝을 찌르는 쨍한 상쾌함이 있는곳
 봄 여름 가을 겨울 하나도 아름답지 않은 것이 없는곳에 파인스톤빌리지에 자리잡고 있습니다.</p>
            </div>
-           <img class="about_img" src="./img/O_background.jpg" alt="" />
+           <img class="about_img" src="resources/img/O_background.jpg" alt="화인스톤빌리지" />
            </div>
            <div class="cnt2">
            <h1>주변 관광 명소</h1>
-           <img src="./img/O_mtn_spring.jpg" alt="봄" class="mtn" />
-           <img src="./img/O_mtn_summer.jpg" alt="여름" class="mtn" />
-           <img src="./img/O_mtn_fall.jpg" alt="가을" class="mtn" />
-           <img src="./img/O_mtn_winter.jpg" alt="겨울" class="mtn" />
+           <img src="resources/img/O_mtn_spring.jpg" alt="봄" class="mtn" />
+           <img src="resources/img/O_mtn_summer.jpg" alt="여름" class="mtn" />
+           <img src="resources/img/O_mtn_fall.jpg" alt="가을" class="mtn" />
+           <img src="resources/img/O_mtn_winter.jpg" alt="겨울" class="mtn" />
            <p style="text-align: center; font-size: 23px">봄, 여름, 가을, 겨울 사계절 운악산의 아름다움을 화인스톤빌리지에서 경험하세요</p>
            
            

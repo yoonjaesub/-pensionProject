@@ -50,14 +50,17 @@
                             <p class="room_desc_tit">이용인원</p> 
                             <p class="room_desc_con">기준 2명 / 최대 4명<br>기준인원 초과시 인당 2만원 추가</p>
                             <div class="reserve_box">
-                                <button class="reserve_btn">예약하기</button>
+                                <button class="reserve_btn" id="reserve_btn">예약하기</button>
+                                <script>
+                                	var btn = document.getElementById("reserve_btn");
+                                	btn.addEventListener("click",function(){
+                                		location.href ="room_reserve";
+                                	})
+                                </script>
                             </div>
                         </div>
                     </div>
                 </div>
-                 
             </div>
         </div>		
 <%@ include file="footer.jsp" %>
-</body>
-</html>
