@@ -10,9 +10,9 @@
 <link
 	href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@400;500;600;700;800;900&family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
 	rel="stylesheet">
-<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="resources/css/common.css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="../js/QnA.js"></script>
+<script src="resources/js/QnA.js"></script>
 </head>
 <style>
 
@@ -39,7 +39,6 @@
 
 .button_bar {
 	height: 10%;
-	margin-bottom: 5%px;
 }
 
 .button_bar button {
@@ -63,12 +62,7 @@
 
 .view {
 	width: 70%;
-	float: right;
-	padding-top: 5%;
-}
-
-.notice_view, .QnA_view, .review_view{
-	margin-right:20%;
+	margin-top: 5%;
 }
 
 #notice {
@@ -82,7 +76,6 @@
 
 .button_box {
 	margin-top: 10%;
-	margin-right: 20%;
 	text-align: right;
 }
 
@@ -99,7 +92,7 @@
 }
 </style>
 <body>
-	<jsp:include page="../header.jsp" />
+	<jsp:include page="./header.jsp" />
 	<div class="content">
 		<nav class="left_bar">
 			<ul>
@@ -187,4 +180,4 @@
 		</section>
 	</div>
 
-	<jsp:include page="../footer.jsp" />
+	<jsp:include page="./footer.jsp" />
