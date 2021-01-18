@@ -1,0 +1,21 @@
+package com.pension.service;
+
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Repository;
+
+import com.pension.dao.RoomDAO;
+import com.pension.vo.RoomVO;
+
+@Repository
+public class RoomServiceImpl implements RoomService{
+
+	@Inject
+	private RoomDAO dao;
+	
+	//객실 추가
+	@Override
+	public void roomInsert(RoomVO roomVO) throws Exception{
+		dao.roomInsert(roomVO);
+	}
+}

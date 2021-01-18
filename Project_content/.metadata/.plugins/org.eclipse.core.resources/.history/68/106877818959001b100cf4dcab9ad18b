@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="RoomMapper">
+	<!-- 객실 추가 기능 -->
+	<insert id="insert">
+		insert into room_tbl(
+								r_number, 
+								r_name, 
+								r_price, 
+								r_description, 
+								r_guestsnum )
+						 values (#{r_number}, 
+						 		#{r_name}, 
+						 		#{r_price}, 
+						 		#{r_desciption}, 
+						 		#{r_guestsnum} )
+	</insert>
+</mapper>

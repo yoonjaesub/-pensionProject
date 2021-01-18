@@ -1,0 +1,10 @@
+package com.pension.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class RoomServiceImpl {
+
+	@Inject
+	private RoomDAO dao;
+}

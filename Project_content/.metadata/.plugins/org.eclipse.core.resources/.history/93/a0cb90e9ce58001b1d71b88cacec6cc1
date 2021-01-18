@@ -1,0 +1,9 @@
+package com.pension.service;
+
+import com.pension.vo.RoomVO;
+
+public interface RoomService {
+
+	//객실 추가 생성
+	public void write(RoomVO roomVO) throws Exception;
+}

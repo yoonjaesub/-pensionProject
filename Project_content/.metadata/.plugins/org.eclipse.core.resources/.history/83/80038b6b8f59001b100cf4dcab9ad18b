@@ -1,0 +1,9 @@
+package com.pension.dao;
+
+import com.pension.vo.RoomVO;
+
+public interface RoomDAO {
+
+	//객실 생성
+	public void roomInsert(RoomVO roomVO) throws Exception;
+}
