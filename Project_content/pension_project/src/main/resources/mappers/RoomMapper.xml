@@ -20,8 +20,15 @@
 						 		#{r_guestsnum} )
 	</insert>
 	
+	<!-- 객실 리스트 보기 기능 -->
 	<!-- resultType은 쿼리를 실행하고난 결과값을 RoomVO에 담아주겠다는 의미 -->
 	<select id="roomList" resultType="com.pension.vo.RoomVO">
-		select r_name, r_guestsnum from room_tbl
+		select r_number, r_name, r_guestsnum from room_tbl
+	</select>
+	
+	<!-- 객실 상세보기 기능 -->
+	<!-- 본인은 room_tbl의 r_number (number) 를 primary key로 주어 where 구문에 r_number를 넣을예정이기 때문에 파라미터타입을 int로 선언해주었음 -->
+	<select id="roomDetail" parameterType="int" resultType="com.pension.vo.RoomVO">
+		select r_number, r_name, r_price, r_description, r_guestsnum from room_tbl where r_number = #{r_number}
 	</select>
 </mapper>
