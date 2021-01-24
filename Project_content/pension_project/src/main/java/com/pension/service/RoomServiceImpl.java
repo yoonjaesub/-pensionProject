@@ -33,4 +33,11 @@ public class RoomServiceImpl implements RoomService{
 	public RoomVO roomDetail(int r_number) throws Exception{
 		return dao.roomDetail(r_number);
 	}
+	
+	//객실 리스트 보기 (관리자)
+	@Override
+	public List<RoomVO> roomListAD() throws Exception{
+		return dao.roomListAD();
+		//dao에 있는 roomListAD를 호출해서 반환하겠음
+	}
 }

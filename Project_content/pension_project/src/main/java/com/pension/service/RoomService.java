@@ -17,4 +17,7 @@ public interface RoomService {
 	
 	//객실 상세 보기
 	public RoomVO roomDetail(int r_number) throws Exception;
+	
+	//객실 목록 조회 (관리자)
+	public List<RoomVO> roomListAD() throws Exception;
 }

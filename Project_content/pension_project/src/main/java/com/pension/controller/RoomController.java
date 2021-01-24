@@ -28,7 +28,7 @@ public class RoomController {
 		logger.info("pension_create");
 	}
 	
-	//게시판 글 작성
+	//객실 추가
 	@RequestMapping(value = "/roomInsert", method = RequestMethod.POST)
 	public String roomInsert(RoomVO roomVO) throws Exception{
 		logger.info("roomInsert");
@@ -57,8 +57,30 @@ public class RoomController {
 	}
 	
 	@RequestMapping(value = "/room/room_reserve", method = RequestMethod.GET)
-	public String index(){
+	public String room_reserve(){
 		return "room/room_reserve";
+	}
+	
+	
+	//관리자 객실 목록 조회
+	@RequestMapping(value = "/pension_manager", method = RequestMethod.GET)
+	//Model = 컨트롤러의 메서드는 모델 타입의 객체를 파라미터로 받을 수 있다. jsp에서의 request나 session의 내장객체에 정보를 담아 jsp로 넘겨주던걸 spring에서는 model로 하는거
+	public String roomListAD(Model model) throws Exception{
+		logger.info("roomListAD");
+			
+		model.addAttribute("roomListAD",service.roomListAD());
+			
+		return "room/pension_manager";
+	}
+	
+	//관리자 객실 상세보기
+	//객실 상세 보기
+	@RequestMapping(value = "/pension_edit", method = RequestMethod.GET)
+	public String roomDetailAD(RoomVO roomVO, Model model) throws Exception{
+		logger.info("roomDetailAD");
+		
+		model.addAttribute("roomDetailAD", service.roomDetail(roomVO.getR_number()));
+		return "room/pension_edit";
 	}
 	
 	

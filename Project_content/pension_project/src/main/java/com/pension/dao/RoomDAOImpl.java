@@ -33,4 +33,10 @@ public class RoomDAOImpl implements RoomDAO{
 	public RoomVO roomDetail(int r_number) throws Exception{
 		return sqlSession.selectOne("RoomMapper.roomDetail", r_number);
 	}
+	
+	//객실 리스트 보기 관리자
+	@Override
+	public List<RoomVO> roomListAD() throws Exception{
+		return sqlSession.selectList("RoomMapper.roomListAD");
+	}
 }
